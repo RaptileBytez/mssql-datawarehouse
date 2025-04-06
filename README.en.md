@@ -40,4 +40,4 @@ This project is licensed under the [MIT License](LICENSE). You are fee to use, m
 
 ## 👋 About Me
 
-Hey there! I'm **Jesco Wurm**, also known as **RapTileBytez** on GitHub. I'm a PLM Consultant with more than 13 years of experience in the field of Product Lifecycle Management (PLM) in the manufacturing industry, now transitioning into the exciting world of data analytics.
+Hey there! I'm **Jesco Wurm**, also known as **RaptileBytez** on GitHub. I'm a PLM Consultant with more than 13 years of experience in the field of Product Lifecycle Management (PLM) in the manufacturing industry, now transitioning into the exciting world of data analytics.

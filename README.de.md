@@ -37,4 +37,4 @@ Dieses Projekt steht unter der MIT-Lizenz. Sie dürfen dieses Projekt frei verwe
 ---
 
 ## 👋 Über mich
-Hallo! Ich bin Jesco Wurm, auch bekannt als RapTileBytez auf GitHub. Ich arbeite als PLM-Consultant und bringe über 13 Jahre Erfahrung im Bereich Product Lifecycle Management (PLM) in der Fertigungsindustrie mit. Aktuell befinde ich mich im spannenden Übergang in die Welt der Datenanalyse.
+Hallo! Ich bin **Jesco Wurm**, auch bekannt als **RaptileBytez** auf GitHub. Ich arbeite als PLM-Consultant und bringe über 13 Jahre Erfahrung im Bereich Product Lifecycle Management (PLM) in der Fertigungsindustrie mit. Aktuell befinde ich mich im spannenden Übergang in die Welt der Datenanalyse.
