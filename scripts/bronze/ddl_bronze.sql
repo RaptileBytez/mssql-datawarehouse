@@ -17,7 +17,7 @@ Date: 06-04-2025
         Proceed with caution and ensure you have backups if necessary.
 =============================================================
 */
-USE Datawarehouse
+USE Datawarehouse;
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL 
     DROP TABLE bronze.crm_cust_info;
 CREATE TABLE bronze.crm_cust_info(

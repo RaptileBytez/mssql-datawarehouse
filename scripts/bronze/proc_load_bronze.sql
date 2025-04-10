@@ -6,9 +6,9 @@ Author: Jesco Wurm aka. RaptileBytez
 Date: 06-04-2025
 
     Procedure Purpose:
-        This stored procedure is used to load data from external CSV files into the 'bronze' layer 
-        of the 'Datawarehouse' database and performs the following actions:
-        - Truncates the existing tables in the bronze layer.
+        This stored procedure is used to load data from external CSV files into the 'bronze' tables in the 'Datawarehouse' database.
+      Actions performed:
+        - Truncates the existing bronze tables.
         - Uses the BULK INSERT command to load data from CSV files into the corresponding tables in the bronze layer.
         
         The procedure is designed to be run in a SQL Server environment.
@@ -18,7 +18,8 @@ Date: 06-04-2025
         The procedure does not accept any parameters or return any values.
 
     WARNING:
-        Running this script will drop any existing tables with the same names in the 'bronze' schema, which will result in data loss.
+        Running this script will truncate any existing tables with the same names in the 'bronze' schema,
+        which will result in data loss.
         Proceed with caution and ensure you have backups if necessary.
     
     Usage:
