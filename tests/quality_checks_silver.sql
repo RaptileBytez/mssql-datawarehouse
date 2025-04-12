@@ -1,6 +1,6 @@
 /*
 ===============================================================================
-Quality Checks
+Quality Checks for Silver Layer
 ===============================================================================
 Script Purpose:
     This script performs various quality checks for data consistency, accuracy, 

@@ -29,7 +29,8 @@ Date: 10-04-2025
 */
 USE Datawarehouse;
 GO
-CREATE OR ALTER PROCEDURE silver.load_silver AS
+CREATE OR ALTER PROCEDURE silver.load_silver
+AS
 BEGIN
     DECLARE @step_start_time DATETIME, @step_end_time DATETIME, @batch_start_time DATETIME, @batch_end_time DATETIME;
     BEGIN TRY
@@ -81,11 +82,18 @@ BEGIN
         PRINT '>> Loading data into table: silver.crm_prd_info...';
 
         INSERT INTO silver.crm_prd_info
-        (prd_id, prd_key, cat_id, prd_nm, prd_cost, prd_line, prd_start_dt, prd_end_dt)
+        (prd_id,
+        prd_key,
+        cat_id,
+        prd_nm,
+        prd_cost,
+        prd_line,
+        prd_start_dt,
+        prd_end_dt)
     SELECT
         prd_id,
-        REPLACE(SUBSTRING(prd_key, 1, 5),'-','_') AS cat_id, --- Extract the category ID from prd_key
         SUBSTRING(prd_key, 7, LEN(prd_key)) AS prd_key, -- Extract the product key from prd_key
+        REPLACE(SUBSTRING(prd_key, 1, 5),'-','_') AS cat_id, --- Extract the category ID from prd_key
         prd_nm,
         ISNULL(prd_cost, 0) AS prd_cost, -- Replace NULL with 0 for prd_cost
         CASE UPPER(TRIM(prd_line)) 
